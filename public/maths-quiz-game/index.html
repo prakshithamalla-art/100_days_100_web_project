@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Math Quiz Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="quiz-header">
+            <h1>🧮 Math Quiz Game</h1>
+            <div class="stats">
+                <div class="score">Score: <span id="score">0</span></div>
+                <div class="question-num">Question: <span id="question-num">1</span>/<span id="total-questions">10</span></div>
+                <div class="timer">Time: <span id="timer">00</span>s</div>
+            </div>
+        </div>
+
+        <div class="difficulty-selector">
+            <label>Difficulty:</label>
+            <button class="difficulty-btn" data-diff="easy">Easy</button>
+            <button class="difficulty-btn" data-diff="medium">Medium</button>
+            <button class="difficulty-btn" data-diff="hard">Hard</button>
+        </div>
+
+        <div class="quiz-area">
+            <div class="question" id="question">What is 5 + 3?</div>
+            <div class="options" id="options">
+                <button class="option">6</button>
+                <button class="option">7</button>
+                <button class="option">8</button>
+                <button class="option">9</button>
+            </div>
+        </div>
+
+        <div class="result-area" id="result-area" style="display: none;">
+            <h2>Quiz Complete! 🎉</h2>
+            <p>Your Score: <span id="final-score">0</span>/<span id="final-total">10</span></p>
+            <p id="feedback-message"></p>
+            <button class="restart-btn" id="restart-btn">Play Again</button>
+        </div>
+
+        <div class="next-area">
+            <button class="next-btn" id="next-btn">Next Question →</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
