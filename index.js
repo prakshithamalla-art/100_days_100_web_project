@@ -316,13 +316,9 @@ function fillTable() {
         ["Day 115", "Event Registration System", "https://event-registration-system-w10a.onrender.com/"],
         ["Day 116", "AI Image Classifier", "/public/AI Image CLassifier/index.html"],
         ["Day 117", "Mini Calendar", "./public/Mini_Calendar/index.html"],
-        ["Day 118", "Sudoku Solver", "./public/sudoku-solver/index.html"],
-["Day 119", "Maths Quiz Game", "./public/maths-quiz-game/index.html"],
-["Day 120", "Age Calculator", "./public/age-calculator/index.html"]
-    
-
- 
-
+        ['Day 133', 'Sudoku Solver', './public/sudoku-solver/index.html', 'game javascript', 'intermediate'],
+['Day 134', 'Maths Quiz Game', './public/maths-quiz-game/index.html', 'game javascript', 'intermediate'],
+['Day 135', 'Age Calculator', './public/age-calculator/index.html', 'tool javascript', 'beginner']
     const tbody = document.getElementById('tableBody');
 
 
