@@ -315,7 +315,10 @@ function fillTable() {
         ["Day 114","EchoNotes","./public/EchoNotes/idex.html"],
         ["Day 115", "Event Registration System", "https://event-registration-system-w10a.onrender.com/"],
         ["Day 116", "AI Image Classifier", "/public/AI Image CLassifier/index.html"],
-        ["Day 117", "Mini Calendar", "./public/Mini_Calendar/index.html"]
+        ["Day 117", "Mini Calendar", "./public/Mini_Calendar/index.html"],
+        ["Day 118", "Sudoku Solver", "./public/sudoku-solver/index.html"],
+["Day 119", "Maths Quiz Game", "./public/maths-quiz-game/index.html"],
+["Day 120", "Age Calculator", "./public/age-calculator/index.html"]
     
 
  
